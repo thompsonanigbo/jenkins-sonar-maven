@@ -13,7 +13,7 @@ spec:
         app: ekart
     spec:
       containers:
-        - name: ekart
+        - name: thompsonanigbo
           image: thompsonanigbo/jenkins-sonar-maven:latest # Image that will be used to containers in the cluster
           imagePullPolicy: IfNotPresent
           ports:
